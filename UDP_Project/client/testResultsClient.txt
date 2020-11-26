@@ -1,0 +1,47 @@
+Last login: Fri Feb  7 18:48:00 2020 from 10.200.0.149
+$ cd HW02/client
+$ javac UDPClient.java
+$ java UDPClient
+Please enter the DNS or IP of the server: cs3700a.msudenver.edu
+Item ID       Item Description
+0001          New Inspiron 15
+0002          New Inspiron 17
+0003          New Inspiron 15R
+0004          New Inspiron 15z Ultrabook
+0005          XPS 14 Ultrabook
+0006          New XPS 12 UltrabookXPS
+
+Enter Item ID Number: x
+
+ID must be a number! Enter Item ID Number: 3
+
+Item information From Server:
+ID: 3
+Inventory: 202
+Description: New Inspirion 15R
+Price: 549.99
+RTT of Query: 11ms
+
+Would you like to continue? Enter 'yes' or 'no': yes
+
+Enter Item ID Number: 0005
+
+Item information From Server:
+ID: 5
+Inventory: 261
+Description: XPS 14 Ultrabook
+Price: 999.99
+RTT of Query: 0ms
+
+Would you like to continue? Enter 'yes' or 'no': yes
+
+Enter Item ID Number: 100
+
+Item information From Server: **Item not found**
+RTT of Query: 1ms
+
+Would you like to continue? Enter 'yes' or 'no': what
+
+Would you like to continue? Enter 'yes' or 'no': no
+
+Shutting down connection...

@@ -1,0 +1,153 @@
+C:\Users\Celes>ssh gpagadua@cs3700b.msudenver.edu
+gpagadua@cs3700b.msudenver.edu's password:
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-109-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Feb 27 18:06:59 MST 2020
+
+  System load:  0.08               Processes:           183
+  Usage of /:   38.4% of 14.64GB   Users logged in:     3
+  Memory usage: 25%                IP address for eth0: 147.153.10.69
+  Swap usage:   2%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+ * Multipass 1.0 is out! Get Ubuntu VMs on demand on your Linux, Windows or
+   Mac. Supports cloud-init for fast, local, cloud devops simulation.
+
+     https://multipass.run/
+
+61 packages can be updated.
+44 updates are security updates.
+
+New release '18.04.4 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Thu Feb 27 18:03:39 2020 from 10.200.0.149
+$ cd HW4
+$ cd client
+$ java SMTPClient
+Please enter the DNS or IP of the server: cs3700a.msudenver.edu
+
+220 cs3700a.msudenver.edu
+
+Your email address: gpagadua@msudenver.edu
+Destination email address: jhoshiko@msudenver.edu
+Subject: Test I
+Enter your message. Please enter a single '.' when done:
+This is a test.
+It uses multiple lines.
+Bye.
+.
+Initiating sending sequence...
+
+250 cs3700a.msudenver.edu Hello cs3700a/147.153.10.87
+RTT of Query: 2ms
+
+250 2.1.0 Sender OK
+RTT of Query: 2ms
+
+250 2.1.5 Recipient OK
+RTT of Query: 1ms
+
+354 Start mail input; end with <CRLF>.<CRLF>
+RTT of Query: 1ms
+
+
+The following email contents have been sent:
+DATA
+To: jhoshiko@msudenver.edu
+From: gpagadua@msudenver.edu
+Subject: Test I
+
+
+This is a test.
+It uses multiple lines.
+Bye.
+.
+
+250 Message received and to be delivered
+RTT of Query: 2ms
+
+
+Would you like to continue? Enter 'yes' or 'no': yes
+
+Your email address: gpagadua@msudenver.edu
+Destination email address: jhoshiko@msudenver.edu
+Subject: Test II
+Enter your message. Please enter a single '.' when done:
+This test uses a single line.
+.
+Initiating sending sequence...
+
+250 cs3700a.msudenver.edu Hello cs3700a/147.153.10.87
+RTT of Query: 1ms
+
+250 2.1.0 Sender OK
+RTT of Query: 0ms
+
+250 2.1.5 Recipient OK
+RTT of Query: 0ms
+
+354 Start mail input; end with <CRLF>.<CRLF>
+RTT of Query: 0ms
+
+
+The following email contents have been sent:
+DATA
+To: jhoshiko@msudenver.edu
+From: gpagadua@msudenver.edu
+Subject: Test II
+
+
+This test uses a single line.
+.
+
+250 Message received and to be delivered
+RTT of Query: 2ms
+
+
+Would you like to continue? Enter 'yes' or 'no': yes
+
+Your email address: gpagadua@msudenver.edu
+Destination email address: jhoshiko@msudenver.edu
+Subject: Test III
+Enter your message. Please enter a single '.' when done:
+.
+Initiating sending sequence...
+
+250 cs3700a.msudenver.edu Hello cs3700a/147.153.10.87
+RTT of Query: 3ms
+
+250 2.1.0 Sender OK
+RTT of Query: 0ms
+
+250 2.1.5 Recipient OK
+RTT of Query: 0ms
+
+354 Start mail input; end with <CRLF>.<CRLF>
+RTT of Query: 1ms
+
+
+The following email contents have been sent:
+DATA
+To: jhoshiko@msudenver.edu
+From: gpagadua@msudenver.edu
+Subject: Test III
+
+
+.
+
+250 Message received and to be delivered
+RTT of Query: 1ms
+
+
+Would you like to continue? Enter 'yes' or 'no': no
+
+Shutting down connection...
+
+221 cs3700a.msudenver.edu closing connection
